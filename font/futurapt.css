@@ -73,6 +73,14 @@ body, html {
     font-family: 'FuturaPT', system-ui, -apple-system, Arial, sans-serif;
 }
 
+/* Отключение переноса слов через дефис для всего сайта */
+* {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
 /* Typography scale */
 h1, .h1 { font-weight: 700; font-size: 2.5rem; line-height: 1.2; }
 h2, .h2 { font-weight: 500; font-size: 2rem; line-height: 1.3; }

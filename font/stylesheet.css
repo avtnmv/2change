@@ -262,3 +262,11 @@
     font-style: italic;
 }
 
+/* Отключение переноса слов через дефис для всего сайта */
+* {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
