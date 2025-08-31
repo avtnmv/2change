@@ -1,0 +1,118 @@
+/* FuturaPT Font Family - Updated for 2Change project */
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-Book.woff2') format('woff2'),
+         url('/font/FuturaPT-Book.woff') format('woff'),
+         url('/font/FuturaPT-Book.ttf') format('truetype');
+    font-weight: 400;   /* normal weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-Medium.woff2') format('woff2'),
+         url('/font/FuturaPT-Medium.woff') format('woff'),
+         url('/font/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;   /* medium weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-Bold.woff2') format('woff2'),
+         url('/font/FuturaPT-Bold.woff') format('woff'),
+         url('/font/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: 700;   /* bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-Light.woff2') format('woff2'),
+         url('/font/FuturaPT-Light.woff') format('woff'),
+         url('/font/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;   /* light weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-ExtraBold.woff2') format('woff2'),
+         url('/font/FuturaPT-ExtraBold.woff') format('woff'),
+         url('/font/FuturaPT-ExtraBold.ttf') format('truetype');
+    font-weight: 800;   /* extra bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('/font/FuturaPT-Heavy.woff2') format('woff2'),
+         url('/font/FuturaPT-Heavy.woff') format('woff'),
+         url('/font/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;   /* heavy weight */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Utility classes for easy font weight usage */
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-bold { font-weight: 700; }
+.font-light { font-weight: 300; }
+.font-extrabold { font-weight: 800; }
+.font-heavy { font-weight: 900; }
+
+/* Base font family for the entire site */
+body, html {
+    font-family: 'FuturaPT', system-ui, -apple-system, Arial, sans-serif;
+}
+
+/* Typography scale */
+h1, .h1 { font-weight: 700; font-size: 2.5rem; line-height: 1.2; }
+h2, .h2 { font-weight: 500; font-size: 2rem; line-height: 1.3; }
+h3, .h3 { font-weight: 500; font-size: 1.5rem; line-height: 1.4; }
+h4, .h4 { font-weight: 500; font-size: 1.25rem; line-height: 1.4; }
+h5, .h5 { font-weight: 500; font-size: 1.125rem; line-height: 1.4; }
+h6, .h6 { font-weight: 500; font-size: 1rem; line-height: 1.4; }
+
+p, .text { font-weight: 400; font-size: 1rem; line-height: 1.6; }
+.text-small { font-weight: 400; font-size: 0.875rem; line-height: 1.5; }
+.text-large { font-weight: 400; font-size: 1.125rem; line-height: 1.6; }
+
+/* Button text */
+.btn { font-weight: 500; }
+.btn-primary { font-weight: 500; }
+.btn-secondary { font-weight: 500; }
+
+/* Navigation */
+.nav-link { font-weight: 500; }
+.nav-brand { font-weight: 700; }
+
+/* Form elements */
+input, textarea, select { font-family: 'FuturaPT', system-ui, -apple-system, Arial, sans-serif; }
+label { font-weight: 500; }
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1, .h1 { font-size: 2rem; }
+    h2, .h2 { font-size: 1.75rem; }
+    h3, .h3 { font-size: 1.375rem; }
+    h4, .h4 { font-size: 1.125rem; }
+    h5, .h5 { font-size: 1rem; }
+    h6, .h6 { font-size: 0.875rem; }
+}
+
+@media (max-width: 480px) {
+    h1, .h1 { font-size: 1.75rem; }
+    h2, .h2 { font-size: 1.5rem; }
+    h3, .h3 { font-size: 1.25rem; }
+    h4, .h4 { font-size: 1.125rem; }
+    h5, .h5 { font-size: 1rem; }
+    h6, .h6 { font-size: 0.875rem; }
+}
